@@ -12,8 +12,7 @@
 
 ### Dionaea Honeypot Deployment (Required)
 
-**Summary:** Briefly in your own words, what does dionaea do?
- Dionaea is a honeypot used to capture malware samples.
+**Summary:** Dionaea is a honeypot used to capture malware samples. Dionaea honeypot gathers malware attacks by reporting the malwares to external analysis service providers.
 
 <img src="honeypot.gif">
 <img src="dionaea.gif">
