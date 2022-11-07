@@ -6,13 +6,13 @@
 
 ### MHN-Admin Deployment (Required)
 
-**Summary:** I used google cloud platform (gcp) to deploy MHN-Admin (Modern Honey Network). I created a gcp account and installed gcp sdk on my local machine. After the gcp setup, I created the MHN Admin VM.
+**Summary:** I used google cloud platform (gcp) to deploy MHN-Admin (Modern Honey Network). I created a gcp account and installed gcp sdk on my local machine. After the gcp setup, I created the MHN Admin VM and setup firewall rules.
 
 <img src="mhn.gif">
 
 ### Dionaea Honeypot Deployment (Required)
 
-**Summary:** Dionaea is a honeypot used to capture malware samples. Dionaea honeypot gathers malware attacks by reporting the malwares to external analysis service providers.
+**Summary:** Dionaea is a honeypot used to capture malware samples. It gathers information on malware used to exploit the system and reports them to external analysis service providers.
 
 <img src="honeypot.gif">
 <img src="dionaea.gif">
