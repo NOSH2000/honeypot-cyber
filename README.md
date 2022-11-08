@@ -6,13 +6,17 @@
 
 ### MHN-Admin Deployment (Required)
 
-**Summary:** I used google cloud platform (gcp) to deploy MHN-Admin (Modern Honey Network). I created a gcp account and installed gcp sdk on my local machine. After the gcp setup, I created the MHN Admin VM and setup firewall rules.
+**Summary:** How did you deploy it? Did you use GCP, AWS, Azure, Vagrant, VirtualBox, etc.?
+
+I used google cloud platform (gcp) to deploy MHN-Admin (Modern Honey Network). I created a gcp account and installed gcp sdk on my local machine. After the gcp setup, I created the MHN Admin VM and setup firewall rules.
 
 <img src="mhn.gif">
 
 ### Dionaea Honeypot Deployment (Required)
 
-**Summary:** Dionaea is a honeypot used to capture malware samples. It gathers information on malware used to exploit the system and reports them to external analysis service providers.
+**Summary:** Briefly in your own words, what does dionaea do?
+
+Dionaea is a honeypot used to capture malware samples. It gathers information on malware used to exploit the system and reports them to external analysis service providers.
 
 <img src="honeypot.gif">
 <img src="dionaea.gif">
@@ -20,6 +24,8 @@
 ### Database Backup (Required) 
 
 **Summary:** What is the RDBMS that MHN-Admin uses? What information does the exported JSON file record?
+
+Ubuntu is the RDBMS that MHN-Admin uses. The exported JSON file record contains specific data on the nature of the attacks and where they came from such as the IP address, session ID, and such.
 
 ## Notes
 
